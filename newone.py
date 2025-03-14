@@ -4,10 +4,10 @@ from api import Command, Simulation, UP, DOWN, MOVE, STOP
 def newone():
     """An example bot that sends elevators up and down and stops at floors if there are passengers waiting to get on or off"""
     simulation = Simulation(
-        event="secondspace2025",
+        event="try",
         building_name="tiny_random",
-        bot="updown-python-bot",
-        email="bob@mail.com",
+        bot="newbot",
+        email="tsukki963@mail.com",
         sandbox=True,
     )
     current_state = simulation.initial_state
